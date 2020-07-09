@@ -1,6 +1,7 @@
 $(".photoshoot-thumb").on('click', function(e)
 {
     $('body').addClass('stop-scrolling');
+    $('html').addClass('stop-scrolling');
 
     var shoot = $(this).attr('data-pshoot');
     var galleryName = $(this).attr('data-lightbox');
@@ -23,11 +24,13 @@ $(".photoshoot-thumb").on('click', function(e)
 
 $('body').on('click','#lightbox', function(e) {
     $('body').removeClass('stop-scrolling');
+    $('html').removeClass('stop-scrolling');
     $('.gallery').empty();
 });
 
 $('.lightbox').on('click', '.lb-close', function(e){
     $('body').removeClass('stop-scrolling');
+    $('html').removeClass('stop-scrolling');
     $('.gallery').empty();
 })
 

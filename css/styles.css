@@ -121,9 +121,9 @@ h7{
 
 .stop-scrolling {
     height: 100%;
-    overflow: hidden;
-    position: fixed;
-  }
+    overflow-y: hidden;
+    position: relative;
+}
 
 .gallery{
     max-height: 100%;
