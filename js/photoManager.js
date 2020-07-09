@@ -22,7 +22,7 @@ $(".photoshoot-thumb").on('click', function(e)
     }
 });
 
-$('body').on('click','#lightbox', function(e) {
+$('body').on('click','#lightboxOverlay', function(e) {
     $('body').removeClass('stop-scrolling');
     $('html').removeClass('stop-scrolling');
     $('.gallery').empty();
