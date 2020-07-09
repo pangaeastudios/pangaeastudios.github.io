@@ -565,7 +565,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05403.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05403.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -574,7 +574,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05411.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05411.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -583,7 +583,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05412.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05412.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -592,7 +592,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05415.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05415.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -601,7 +601,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05416.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05416.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -610,7 +610,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05428.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05428.JPG',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -619,7 +619,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05429.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05429.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -628,7 +628,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05430.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05430.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -637,7 +637,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05432.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05432.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -646,7 +646,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05433.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05433.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -655,7 +655,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2018/Get Dirty/DSC05447.jpg',
+            source: 'img/Photography/2018/Get Dirty/DSC05447.JPG',
             orientation: 'landscape',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
