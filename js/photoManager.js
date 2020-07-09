@@ -739,7 +739,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01534.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01534.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -748,7 +748,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01535.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01535.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -757,7 +757,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01550.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01550.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -766,7 +766,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01476.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01476.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -775,7 +775,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01554.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01554.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -784,7 +784,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01557.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01557.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -793,7 +793,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01564.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01564.JPG',
             orientation: 'landscape',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -802,7 +802,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01586.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01586.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -811,7 +811,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01596.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01596.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -820,7 +820,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01599.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01599.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -829,7 +829,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01616.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01616.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -838,7 +838,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01648.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01648.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
@@ -847,7 +847,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2020/BR&ON/DSC01658.jpg',
+            source: 'img/Photography/2020/Brandon McKinney/DSC01658.JPG',
             orientation: 'portrait',
             models: 'Brandon McKinney',
             author: 'Brandon McKinney'
