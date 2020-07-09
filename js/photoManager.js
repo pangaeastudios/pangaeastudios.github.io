@@ -313,7 +313,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09278.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09278.JPG',
             orientation: 'landscape-80',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -322,7 +322,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09296.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09296.JPG',
             orientation: 'portrait',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -331,7 +331,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09311.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09311.JPG',
             orientation: 'portrait',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -340,7 +340,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09381.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09381.JPG',
             orientation: 'landscape-80',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -349,7 +349,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09383.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09383.JPG',
             orientation: 'landscape-80',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -358,7 +358,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09385.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09385.JPG',
             orientation: 'landscape-80',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -367,7 +367,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09386.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09386.JPG',
             orientation: 'landscape-80',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
@@ -376,7 +376,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Heyyy Sunshine/DSC09391.jpg',
+            source: 'img/Photography/2017/Heyyy Sunshine/DSC09391.JPG',
             orientation: 'portrait',
             models: 'Mathilda Coleman, Rahmani Wachjo, Lorenzo Marchini',
             author: 'Brandon McKinney'
