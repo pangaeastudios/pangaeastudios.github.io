@@ -26,12 +26,34 @@ img{
 .col-md-3{
     margin-bottom: 40px;
 }
-.album-poster{
+.vinyl-cover{
+    position: relative;
+    z-index: 2;
+}
+
+.vinyl{
+    position: absolute;
+    transition: all ease 0.4s;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#album-poster{
     position: relative;
     display: block;
-    overflow: hidden;
+    overflow: visible;
     transition: all ease 0.4s;
     box-shadow: none;
+}
+
+#album-poster:hover{
+    transform: scale(1.02) translateY(-5px);
+    box-shadow: 0 7px 20px #9e9e9e;
+}
+
+#album-poster:hover .vinyl{
+    transform: translateY(-50px);
 }
 
 .lb-close{
