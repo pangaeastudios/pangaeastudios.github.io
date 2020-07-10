@@ -13,7 +13,7 @@ ap.on('listswitch', function(e){
     document.title = titleText;
 });
 
-$(".album-poster").on('click', function(e)
+$("#album-poster").on('click', function(e)
 {
     var dataJukeID = $(this).attr('data-juke-index');
     var albumName = $(this).attr('data-album');
