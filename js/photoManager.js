@@ -1,7 +1,8 @@
 $(".photoshoot-thumb").on('click', function(e)
 {
-    $('body').addClass('stop-scrolling');
-    $('html').addClass('stop-scrolling');
+    $('.lightbox').addClass('stop-scrolling');
+    $('#photo-page').addClass('margin-zero');
+    //$('html').addClass('stop-scrolling');
 
     var shoot = $(this).attr('data-pshoot');
     var galleryName = $(this).attr('data-lightbox');
@@ -13,7 +14,7 @@ $(".photoshoot-thumb").on('click', function(e)
         console.log(i);
         var image = gallery[shoot][i-1];
        
-        var tags = '<a href="' + image.source + '" data-lightbox="' + galleryName + '" ' + 'data-title="In frame: '+ image.models + '"><img src=' + image.source + '"></a>';
+        var tags = '<a href="' + image.source + '" data-lightbox="' + galleryName + '" ' + 'data-title="In frame: '+ image.models + '"><img src="' + image.source + '"></a>';
         console.log(tags);
         if(image.source != thisSource)
         {
@@ -22,15 +23,27 @@ $(".photoshoot-thumb").on('click', function(e)
     }
 });
 
-$('body').on('click','#lightboxOverlay', function(e) {
-    $('body').removeClass('stop-scrolling');
-    $('html').removeClass('stop-scrolling');
-    $('.gallery').empty();
+
+
+$('body').on('mouseover', function(e){
+    $('#photo-page').removeClass('margin-zero');
+    console.log($('.lightbox').css('display'));
+    if($('.lightbox').css('display') === 'none')
+    {
+       // $('body').removeClass('stop-scrolling');
+        //$('html').removeClass('stop-scrolling');
+    }
 });
+
+// $('body').on('click','#lightboxOverlay', function(e) {
+//     $('body').removeClass('stop-scrolling');
+//     $('html').removeClass('stop-scrolling');
+//     $('.gallery').empty();
+// });
 
 $('.lightbox').on('click', '.lb-close', function(e){
     $('body').removeClass('stop-scrolling');
-    $('html').removeClass('stop-scrolling');
+    //$('html').removeClass('stop-scrolling');
     $('.gallery').empty();
 })
 
@@ -186,7 +199,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC05005.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC05005.jpg',
             orientation: 'portrait',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -197,7 +210,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC04901.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC04901.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -207,7 +220,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC04910.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC04910.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -217,7 +230,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC05036.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC05036.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -226,7 +239,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC05223.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC05223.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -235,7 +248,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC05252.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC05252.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin',
             author: 'Brandon McKinney'
@@ -244,7 +257,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC04956.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC04956.jpg',
             orientation: 'landscape-80',
             models: 'Aurelia Artha, Rizq Naherta, Jordinna Joaquin',
             author: 'Brandon McKinney'
@@ -253,7 +266,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC04877.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC04877.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
@@ -262,7 +275,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Milk, Eggs, and Hype',
-            source: 'img/Photography/2017/Milk, Eggs, and Hype/DSC04877.jpg',
+            source: 'img/Photography/2017/Milk-Eggs-and-Hype/DSC04877.jpg',
             orientation: 'landscape-80',
             models: 'Jordinna Joaquin, Abigail Faiz, Aurelia Artha',
             author: 'Brandon McKinney'
