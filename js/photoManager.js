@@ -27,7 +27,7 @@ $(".photoshoot-thumb").on('click', function(e)
 
 $('body').on('mouseover', function(e){
     $('#photo-page').removeClass('margin-zero');
-    console.log($('.lightbox').css('display'));
+
     if($('.lightbox').css('display') === 'none')
     {
        // $('body').removeClass('stop-scrolling');
@@ -401,7 +401,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/Magazine 1.2.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/Magazine 1.2.jpg',
             orientation: 'portrait',
             models: 'Marie Penduff',
             author: 'Brandon McKinney'
@@ -410,7 +410,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/Magazine 1.1.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/Magazine 1.1.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -419,7 +419,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/Magazine 2.2.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/Magazine 2.2.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -428,7 +428,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3207.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3207.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -437,7 +437,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3300.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3300.jpg',
             orientation: 'portrait',
             models: 'Marie Penduff',
             author: 'Brandon McKinney'
@@ -446,7 +446,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3170.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3170.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -455,7 +455,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3267.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3267.jpg',
             orientation: 'portrait',
             models: 'Marie Penduff',
             author: 'Brandon McKinney'
@@ -464,7 +464,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3202.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3202.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
@@ -473,7 +473,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3303.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3303.jpg',
             orientation: 'landscape-80',
             models: 'Marie Penduff',
             author: 'Brandon McKinney'
@@ -482,7 +482,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3277.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3277.jpg',
             orientation: 'portrait',
             models: 'Marie Penduff',
             author: 'Brandon McKinney'
@@ -491,7 +491,7 @@ var gallery = {
         {
             //One Image//                                       
             shootName: 'Editorial Photoshoot',
-            source: 'img/Photography/2017/Studio Sembilan - Becky/_DSC3335.jpg',
+            source: 'img/Photography/2017/Studio-Sembilan-Becky/_DSC3335.jpg',
             orientation: 'portrait',
             models: 'Saffron Llewellyn',
             author: 'Brandon McKinney'
