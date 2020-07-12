@@ -35,7 +35,7 @@
 
     <title>Pangaea Studios</title>
   </head>
-  <body>
+  <body class="render-body">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -104,34 +104,39 @@
     <script src="js/THREE/OrbitControls.js"></script>
     <div class="canvas">
         <div class="canvas-text loading-text">
-            LOADING 3D MODEL...
+            LOADING 3D SCENE...
         </div>
-        <div class = "render-window">
+        <div class="canvas-text navigation-text">
+          <a href="games.html">
+              BACK TO GAMES PAGE
+          </a>
+      </div>
+        <div class = "render-view" id="container">
             <script>
                 let scene, camera, renderer;
-        
+              
                 function init()
                 {
                     scene = new THREE.Scene();
                     scene.background = new THREE.Color(0xdddddd);
-        
+              
                     camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight);
                     camera.rotation.y = 45/180*Math.PI;
                     camera.position.z = camera.position.z + 3;
                     camera.position.x = camera.position.x + 2;
                     camera.position.y = camera.position.y + 0.6;
-        
+              
                     hlight = new THREE.AmbientLight(0x404040,100);
                     
-        
+              
                     // directionalLight = new THREE.DirectionalLight(0xffffff,100);
                     // directionalLight.position.set(0,1,0);
                     // directionalLight.castShadow = true;
                     // scene.add(directionalLight);
-        
+              
                     light = new THREE.PointLight(0xc4c4c4,10);
                     light.position.set(0,300,500);
-        
+              
                     light2 = new THREE.PointLight(0xc4c4c4,10);
                     light2.position.set(500,100,0);
                     
@@ -146,37 +151,37 @@
                     scene.add(light2);
                     scene.add(light3);
                     scene.add(light4);
-        
+              
                     renderer = new THREE.WebGLRenderer({antialias: true});
                     renderer.setSize(window.innerWidth, window.innerHeight);
-        
+              
                     controls = new THREE.OrbitControls(camera, renderer.domElement);
                     controls.enableDamping = true;
                     controls.dampingFactor = 0.2;
                     document.body.append(renderer.domElement);
-        
+              
                     let loader = new THREE.GLTFLoader();
                     loader.setPath('3d/1972_datsun_240k_gt_non_commercial_use_only/')
-        
+              
                     loader.load('scene.gltf', function(gltf){
                         car = gltf.scene.children[0];
                         car.scale.set(1,1,1);
                         scene.add(gltf.scene);
                         renderer.render(scene,camera);
                         animate();
-
+              
                         if(gltf != null)
                         {
                             console.log("loaded");
-                            $(".loading-text").css('font-size', "0");
+                            $(".loading-text").css('font-size', "0");   //Make loading text invisible
                         }
                     });
-        
+              
                     // let mtlLoader = new THREE.MTLLoader();
                     // mtlLoader.setTexturePath('/3d/DeLorean/Textures/');
                     // mtlLoader.setPath('/3d/DeLorean/Textures/');
                     // mtlLoader.load('DeLorean')
-        
+              
                     // let objLoader = new THREE.OBJLoader();
                     // objLoader.setPath('/3d/DeLorean/');
                     // objLoader.load('DeLorean.obj',function(object){
@@ -186,32 +191,32 @@
                     //     animate();
                     // });
                 }
-        
+              
                 //Frame update function
                 function animate(){
                     renderer.render(scene,camera);
                     requestAnimationFrame(animate);
                 }
                   //Calls frame update
-        
+              
                 init();
-        
+              
                 // var geometry = new THREE.BoxGeometry(1,1,1);
                 // var material = new THREE.MeshBasicMaterial ({color: 0xff0000});
                 // var cube = new THREE.Mesh(geometry, material);
                 // scene.add(cube);
-        
+              
                 // cube.position.z = -5;
-        
+              
                 // var animate = function(){
                 //     cube.rotation.x += 0.01;
-        
+              
                 //     renderer.render(scene, camera);
                 //     requestAnimationFrame(animate);
                 // };
-        
+              
                 // animate();
-            </script>
+              </script>
         </div>
     </div>
     

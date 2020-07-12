@@ -9,6 +9,10 @@
 body{
     background-color: white;
     position: relative;
+    /* margin-top: 66px; */
+}
+
+.render-body{
     margin-top: 66px;
     overflow: hidden;
 }
@@ -18,6 +22,26 @@ body{
     margin-top: 22%;
     left: 43.5%;
     font-size: x-large;
+    position: fixed;
+}
+
+.navigation-text{
+    color: darkgray;
+    opacity: 20%;
+    margin-top: 1%;
+    left: 1%;
+    font-size: x-large;
+    transition: all ease 0.4s;
+}
+
+a:link{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.navigation-text:hover{
+    opacity: 80%;
+    cursor: pointer;
 }
 
 .invisible{
