@@ -102,10 +102,9 @@
     <script src="js/THREE/FBXLoader.js"></script>
     <script src="js/THREE/MTLLoader.js"></script>
     <script src="js/THREE/OrbitControls.js"></script>
-    <h8 id="loading-text">LOADING</h8>
     <div class="canvas">
-        <div class="canvas-text">
-            TEST HEADER
+        <div class="canvas-text loading-text">
+            LOADING 3D MODEL...
         </div>
         <div class = "render-window">
             <script>
@@ -165,6 +164,12 @@
                         scene.add(gltf.scene);
                         renderer.render(scene,camera);
                         animate();
+
+                        if(gltf != null)
+                        {
+                            console.log("loaded");
+                            $(".loading-text").css('font-size', "0");
+                        }
                     });
         
                     // let mtlLoader = new THREE.MTLLoader();
