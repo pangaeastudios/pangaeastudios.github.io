@@ -9,10 +9,31 @@
 body{
     background-color: white;
     position: relative;
+    margin: 0px;
+    overflow: hidden;
 }
 
 #loading-text{
     color: red;
+}
+
+.canvas{
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
+
+canvas{
+    display: block;
+}
+
+.canvas-text{
+    position: absolute;
+    top: 0;
+}
+
+.render-window{
+    position: relative;
 }
 
 img{
