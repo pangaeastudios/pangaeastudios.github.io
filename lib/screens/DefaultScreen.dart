@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../helpers/constants.dart';
+
 import '../widgets/NavDrawer.dart';
 
 class DefaultStatelessScreen extends StatelessWidget {
@@ -16,8 +18,11 @@ class DefaultStatelessScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          title: appBarWidget,
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(AppBarHeight),
+          child: AppBar(
+            flexibleSpace: appBarWidget,
+          ),
         ),
         drawer: NavDrawer(),
         body: this.body,

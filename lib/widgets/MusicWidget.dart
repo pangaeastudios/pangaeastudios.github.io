@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../helpers/styles.dart';
+import '../helpers/styling.dart';
 
 class MusicWidget extends StatelessWidget {
   @override
@@ -8,7 +8,7 @@ class MusicWidget extends StatelessWidget {
     return FlatButton(
       onPressed: () {},
       child: Text('MUSIC WIDGET HERE'),
-      shape: homeButtonShape,
+      shape: RoundedBorder(),
     );
   }
 }

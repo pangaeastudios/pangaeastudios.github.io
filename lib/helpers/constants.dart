@@ -15,3 +15,11 @@ const MaterialColor white = const MaterialColor(
     900: const Color(0xFFFFFFFF),
   },
 );
+
+double ScreenWidth = 1080;
+double ScreenHeight = 1920;
+
+double SafeAreaHeight = 30;
+double AppBarHeight = 80;
+
+double BottomOffset = 20;
