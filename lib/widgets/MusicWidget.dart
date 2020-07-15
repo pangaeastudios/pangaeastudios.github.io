@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../styles.dart';
+import '../helpers/styles.dart';
 
 class MusicWidget extends StatelessWidget {
   @override

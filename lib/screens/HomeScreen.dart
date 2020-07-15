@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 
 import 'DefaultScreen.dart';
 
+import '../helpers/styles.dart';
+
 import '../widgets/MusicWidget.dart';
 
 FlatButton buildHomeScreenButton({Function onPressed, String text}) =>
     FlatButton(
       onPressed: onPressed,
       child: Text(text),
+      shape: homeButtonShape,
     );
 
 class HomeScreen extends StatelessWidget {
