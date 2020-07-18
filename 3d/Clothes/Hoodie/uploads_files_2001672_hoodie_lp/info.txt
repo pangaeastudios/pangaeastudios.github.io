@@ -1,0 +1,11 @@
+Name: hoodie_lp
+Version: 2015
+Preview: No
+Units: Millimeters
+Dimension: 58.44 x 34.33 x 106.43
+Polys: 3 007
+XForm: Yes
+Box Trick: No
+Model Parts: 7
+Render: Corona
+Formats: 3Ds Max 2015, OBJ, FBX
