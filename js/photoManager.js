@@ -901,8 +901,6 @@ var gallery = {
         },
     ],
 
-    
-
     abstract_orbs_render:[
         {
             //One Image//                                       
@@ -922,5 +920,152 @@ var gallery = {
             author: 'Brandon McKinney'
             //........//
         },
+    ],
+
+    slendro_renders:[
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Chip.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Head.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Head2.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Head3.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Silhouette.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Silhouette-Dark.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Silhouette-Lit.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Silhouette-Lit-3.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Slendro-Head-Pink.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Screenshot 2021-03-01 221806.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Screenshot 2021-03-01 222609.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Screenshot 2021-03-01 221718.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Screenshot 2021-03-01 222638.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Screenshot 2021-03-01 222727.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/Pinewood-Puffer.jpg',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        },
+        {
+            //One Image//                                       
+            shootName: 'Slendro',
+            source: 'img/Games/Renders/shard-cloud.png',
+            orientation: 'landscape',
+            models: 'Brandon McKinney',
+            author: 'Brandon McKinney'
+            //........//
+        }
     ]
 }
