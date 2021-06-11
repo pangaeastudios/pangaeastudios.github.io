@@ -171,6 +171,7 @@ h5 {
   color: white;
   margin: 0;
   padding: 0;
+  align-self: center;
 }
 
 .modal-title h5 {
@@ -499,6 +500,35 @@ h7 {
 
 .card-category {
   margin-top: 0px;
+}
+
+#about-section-1 {
+  text-align: center;
+  height: 750px;
+  overflow: hidden;
+}
+
+#about-section-2 {
+  text-align: center;
+  height: 750px;
+  overflow: hidden;
+}
+
+.about-section-1-img {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.about-section-2-img {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: fit-content;
 }
 
 /*
