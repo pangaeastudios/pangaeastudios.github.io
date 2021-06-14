@@ -512,6 +512,7 @@ h7 {
   text-align: center;
   height: 750px;
   overflow: hidden;
+  position: relative;
 }
 
 .about-section-1-img {
