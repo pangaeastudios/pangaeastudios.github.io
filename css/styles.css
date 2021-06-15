@@ -172,6 +172,41 @@ h5 {
   margin: 0;
   padding: 0;
   align-self: center;
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.block-text-2 {
+  font-family: "lulocleanw01-oneboldregular";
+  color: white;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.block-text-3 {
+  font-family: "lulocleanw01-oneboldregular";
+  color: white;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.italic-text {
+  font-size: 2rem;
+}
+
+.regular-text {
+  font-size: 1em;
 }
 
 .modal-title h5 {
@@ -373,6 +408,98 @@ h7 {
   color: white;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
+}
+
+.foreword-text {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1557px) {
+  .block-text {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .italic-text {
+    font-size: 1.5rem;
+  }
+
+  .regular-text {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 1344px) {
+  .block-text {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .about-section-1-img {
+    transform: scale(1.6);
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .block-text {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .block-text-2 {
+    font-size: 0.8rem;
+  }
+
+  .about-section-1-img {
+    transform: scale(1.9);
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .block-text {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .italic-text {
+    font-size: 1.1rem;
+  }
+
+  .regular-text {
+    font-size: 0.7em;
+  }
+
+  .about-section-1-img {
+    transform: scale(2.4);
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .block-text {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .italic-text {
+    font-size: 2.1rem;
+  }
+
+  .regular-text {
+    font-size: 1em;
+  }
+
+  .foreword-text {
+    font-size: 0.9rem;
+  }
+
+  .about-section-1-img {
+    transform: scale(2.8);
+  }
 }
 
 @media only screen and (max-width: 991px) {
