@@ -202,6 +202,8 @@ h5 {
 }
 
 .italic-text {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
 }
 
@@ -389,6 +391,10 @@ h7 {
   z-index: 99;
 }
 
+.navbar-toggler {
+  border-color: rgb(248, 249, 250, 0) !important;
+}
+
 .navbar-brand {
   width: 80px;
   height: 50px;
@@ -499,6 +505,14 @@ h7 {
 
   .about-section-1-img {
     transform: scale(2.8);
+  }
+
+  .about-section-3 {
+    order: 1 !important;
+  }
+
+  .about-section-3-text {
+    order: 2 !important;
   }
 }
 
@@ -629,17 +643,29 @@ h7 {
   margin-top: 0px;
 }
 
-#about-section-1 {
+.about-section-1 {
   text-align: center;
   height: 750px;
   overflow: hidden;
 }
 
-#about-section-2 {
+.about-section-2 {
   text-align: center;
   height: 750px;
   overflow: hidden;
   position: relative;
+}
+
+.about-section-3 {
+  text-align: center;
+  height: 750px;
+  overflow: hidden;
+  position: relative;
+  order: 2;
+}
+
+.about-section-3-text {
+  order: 1;
 }
 
 .about-section-1-img {
