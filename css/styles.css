@@ -201,6 +201,17 @@ h5 {
   line-height: 1.2;
 }
 
+.block-text-4 {
+  font-family: "lulocleanw01-oneboldregular";
+  color: white;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .italic-text {
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
@@ -420,6 +431,14 @@ h7 {
   font-size: 1rem;
 }
 
+.social-link img {
+  transition: 0.2s;
+}
+
+.social-link-container:hover img {
+  transform: scale(1.1);
+}
+
 @media only screen and (max-width: 1557px) {
   .block-text {
     font-size: 3.5rem;
@@ -443,6 +462,12 @@ h7 {
     line-height: 1.2;
   }
 
+  .block-text-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
   .about-section-1-img {
     transform: scale(1.6);
   }
@@ -450,6 +475,12 @@ h7 {
 
 @media only screen and (max-width: 1240px) {
   .block-text {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .block-text-4 {
     font-size: 3rem;
     font-weight: 300;
     line-height: 1.2;
@@ -471,6 +502,12 @@ h7 {
     line-height: 1.2;
   }
 
+  .block-text-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
   .italic-text {
     font-size: 1.1rem;
   }
@@ -486,6 +523,12 @@ h7 {
 
 @media only screen and (max-width: 766px) {
   .block-text {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .block-text-4 {
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
@@ -523,12 +566,22 @@ h7 {
     line-height: 1.2;
   }
 
+  .block-text-4 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
   .italic-text {
     font-size: 1.5rem;
   }
 
   .about-section-1-img {
     transform: scale(9.2);
+  }
+
+  .contact-form {
+    padding-top: 15%;
   }
 }
 
